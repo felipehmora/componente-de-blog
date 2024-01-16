@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "figtree";
+  src: url(../assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+.background {
+  background-color: #ffd829;
+}
+
+.card-background {
+  background-color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 600px 300px 600px;
+}
+
+.card {
+  width: 400px;
+  height: 600px;
+  margin-top: 45px;
+  margin-bottom: 25px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+}
+
+.card-shadow {
+  background-color: black;
+  width: 400px;
+  height: 600px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+  margin-top: 45px;
+  margin-bottom: 25px;
+  z-index: 0;
+}
+
+.card-image {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.learning-text {
+  font-family: "figtree";
+  width: 80px;
+  height: 20px;
+  text-align: center;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 5px;
+  margin-left: 40px;
+}
+
+.date-published-text {
+  font-family: "figtree";
+  margin-left: 40px;
+}
+
+.title-text {
+  font-family: "figtree";
+  margin-left: 40px;
+  font-size: 25px;
+}
+
+.content-paragraph {
+  font-family: "figtree";
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: 80px 40px 30px;
+}
+
+.profile-pic {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.username {
+  font-family: "figtree";
+}
