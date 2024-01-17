@@ -28,14 +28,14 @@
 
 .card-shadow {
   background-color: black;
-  width: 400px;
+  width: 45px;
   height: 600px;
   border-style: solid;
   border-color: black;
   border-radius: 25px;
-  margin-top: 45px;
+  margin-left: 60px;
   margin-bottom: 25px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .card-image {
